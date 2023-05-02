@@ -4,26 +4,31 @@ date: 05-02-2023
 ---
 Clean Code: Fundamentals, Episode 2
 Names++
-Choose your names thoughtfuy, you don’t want to confuse yourself or the reader by having names that are way too simple or overly complicated. The names should have a direct meaning to the piece of code you are writing.
+
+
+Choose your names thoughtfuy- You don’t want to confuse yourself or the reader by having names that are way too simple or overly complicated. The names should have a direct meaning to the piece of code you are writing.
 	Avoid silly words like ‘manager’ ‘data’, ‘processor’, ‘info’
 
-Communicate your intent- if you need to add comment to describe the name it is a bad name.
-Avoid disinformation- If you have to read the code to understand what the name means it is also a bad name 
-Pronounceable names - Create names that people can pronounce no need to make overly large or hard to read names
+Communicate your intent- if you need to add a comment to describe the name it is a bad name.
+
+Avoid disinformation- If you have to read the code to understand what the name means it is also a bad name. 
+
+Pronounceable names - Create names that people can pronounce no need to make overly large or hard to read names.
+
 Avoid encodings- Don’t need to use Hungarian notation don’t need to keep track of types like we used to.
 
-Names should mean what they say and say what they mean
+Names should mean what they say and say what they mean.
 
 Booleans should have a name that invokes a question like ‘GreaterThanFive’ as this makes sense to return a true or false.
-Classes and variables are nouns or noun phrases l should be nouns such as ‘PointsScored’
+Classes and variables are nouns or noun phrases such as ‘PointsScored’
 
 Methods are verbs
 
-Enums are typically adjectives like Color, Size, status etc
+Enums are typically adjectives like Color, Size, status etc..
 
-Shorter variable names are often a great idea as they are called many times and writing out a long name over and over again can become gratuitous.
+Shorter variable names are often a great idea as they are called many times, and writing out a long name over and over again can become gratuitous.
 
-All of these rules make the code read like web written prose
+All of these rules make the code read like web written prose and help display the developer cares about their code.
 
 
 Clean Code: Fundamentals, Episode 1
