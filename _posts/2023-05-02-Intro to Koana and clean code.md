@@ -37,36 +37,49 @@ Clean Code
 The Productivity trap:
  
 Over time the messiness of the code builds up until things that would have taken days to complete are now taking weeks or months and being productive becomes harder and harder.
+
  
-Managers may give deadlines based on how fast the work was completed in the beginning but not realizing that your productivity is slowing down due to messy code
+Managers may give deadlines based on how fast the work was completed in the beginning but not realizing that your productivity is slowing down due to messy code.
+
  
 Brook's Law - If you add more staff to a late project than the project becomes even later and takes longer to complete.
  
-If you add new employees than they will learn from the people who created the messy code and so the trend continues down while the company is paying even more people so the gap worsens
+ 
+If you add new employees than they will learn from the people who created the messy code and so the trend continues down while the company is paying even more people so the gap worsens.
+
+
+ 
+Don’t want a race between the team that studys the old code and tries to reform it and the team that adds features and works on the current code.
  
  
-Don’t want a race between the team that studys the old code and tries to reform it and the team that adds features and works on the current code
- 
- 
+ 
 CODE ROT:
-Code starts clean but becomes messy as complexity is added
-Rigidity- system that resists change meaning you have to change a lot of the code to change one thing because parts of the code are dependent on other parts of the code
+
+
+Code starts clean but becomes messy as complexity is added.
+
+
+Rigidity:
+
+system that resists change meaning you have to change a lot of the code to change one thing because parts of the code are dependent on other parts of the code.
  
 Fragility:
  
+ 
 System can malfunction in many ways if just a simple change is made or a bug Is fixed, essentially a cascade of broken modules from changing one module
  
 Opacity:
-Reading the code gives little information as to what it does or the intention of the code
-Code is hard to read hard to change and hard to understand
+
+Reading the code gives little information as to what it does or the intention of the code.
+Code is hard to read hard to change and hard to understand.
  
-Developers never go back and clean code after a deadline is complete. Code should be clean from the start. It is worth the time to create clean coherent code because it speeds things up in the long term and short term
+Developers never go back and clean code after a deadline is complete. Code should be clean from the start. It is worth the time to create clean coherent code because it speeds things up in the long term and short term.
  
 What is clean code?
  
  
-Clean code is simple and direct and it reads like well written prose
-CleanCode is written by someone who cares
+Clean code is simple and direct and it reads like well written prose.
+CleanCode is written by someone who cares.
 
 
 KOANAS:
