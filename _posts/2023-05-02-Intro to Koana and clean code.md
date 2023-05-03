@@ -1,6 +1,6 @@
 ---
 title: Intro to Koana and clean code
-date: 05-02-2023
+date: 02-05-2023
 ---
 Clean Code: Fundamentals, Episode 2
 Names++
