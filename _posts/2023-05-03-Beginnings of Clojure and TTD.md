@@ -39,19 +39,26 @@ Now here is the overall code in Clojure that takes an input number and calculate
 
 
 
-(defn multiple-of-5-3? [n]
-  (or (zero? (mod n 3))
-      (zero? (mod n 5))))
+    (defn multiple-of-5-3? [n]  
+
+
+      (or (zero? (mod n 3))
+
+
+          (zero? (mod n 5))))
 
 
 
-(defn multiples-less-than [n]
-  (filter multiple-of-5-3? (rest (range n))))
+    (defn multiples-less-than [n]
+
+
+      (filter multiple-of-5-3? (rest (range n))))
 
 
 
-(defn euler-1 [n]
-  (apply + (multiples-less-than n)))
+    (defn euler-1 [n]
+
+      (apply + (multiples-less-than n)))
 
 The filter function is extremely useful, it creates a lazy sequence given a function and a list. In this case it is applying the multiple-of-3-5 function to every value in range of n besides the first one which is zero hence the ‘rest’ statement. The filter will only place a value in it’s lazy sequence if it passes true on the function. The next function is straight forward but it uses the apply syntax which applies the first function ‘+’ to the second function it is given ‘multiples-less-than’ using n as the input to the second function. 
 
