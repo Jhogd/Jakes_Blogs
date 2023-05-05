@@ -25,8 +25,10 @@ I then broke down the problem and wrote a test case for a function that would ge
 
 
     (defn second-last [n]
-        (second (reverse n)))       
-    (defn sum-second-last [n]2
+        (second (reverse n))) 
+        
+        
+    (defn sum-second-last [n]
         (+ (second-last n) (last n)))
                                                                      
 After this is when I began to run into problems. I created a test that would test a fib-sequence function when it had an input of 3 meaning the fib sequence would contain a total of 3 values [1 2 3]. 
