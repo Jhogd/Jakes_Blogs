@@ -10,14 +10,13 @@ Notes:
 Switch statements ruin the independent deployability and develop-ability of a program and they lead to fan-out problems.
 
 
-Persistent fads in software.
+Persistent fads in software include
 
+-Functional programming 
 
-	-Functional programming 
+-Structural programming 
 
-	-Structural programming 
-
-	-Object Oriented Programming
+-Object Oriented Programming
 
 
 A true mathematical function is dependent only on its inputs
