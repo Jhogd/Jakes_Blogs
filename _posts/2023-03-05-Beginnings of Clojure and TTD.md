@@ -14,19 +14,11 @@ The biggest lesson I learned is that being able to read and understand a languag
 Something like this:
 ```python
   (valid_multiples = [] 
-
       for x in range(n):
-
-
-      check_multiple = multipleof_3_or_5(n)
-
-
-      If check_multiple:
-
-         valid_multiples.append(x)
-
-
-    final_sum = sum(valid_multiples))
+        check_multiple = multipleof_3_or_5(n)
+        If check_multiple:
+          valid_multiples.append(x)
+      final_sum = sum(valid_multiples))
 ```
 
 
