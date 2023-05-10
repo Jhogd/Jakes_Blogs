@@ -9,19 +9,26 @@ Test Driven Development:
 Test driven development is faster than traditionally written code while also having less defects and being cleaner. 
 
 Rules-
-	Never write production code without first having a failing test.
-	Write only enough of a test to demonstrate a failure 
-	Write only enough production code to pass the failing test
+
+  -Never write production code without first having a failing test.
+
+  -Write only enough of a test to demonstrate a failure 
+
+  -Write only enough production code to pass the failing test
 
 Test driven development eliminates the fear of change that holds programmers back by having tests we can trust with out lives.
 
 Test driven development can often lead to faster and quicker solutions than originally designed 
 
-Guidelines when using TTD:
-Write the simple failing test
-Write production code so that it passes the simple test.
-Refactor if possible
 
+Guidelines when using TTD-
+
+  -Write the simple failing test
+
+  -Write production code so that it passes the simple test.
+
+  -Refactor if possible
+ 
 
 Architecture, Use Cases and High Level Design:
 
