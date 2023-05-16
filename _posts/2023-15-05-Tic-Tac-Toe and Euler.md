@@ -42,7 +42,7 @@ I plan on making the win conditions and terminal states based on the win conditi
 
 well as beginning to make the min max function and best move function for the AI. I hope to 
 
-get over halfway done with the entire program by the end of the day.
+get over halfway done with the entire program by the end of the day tommorow.
 
 
 
