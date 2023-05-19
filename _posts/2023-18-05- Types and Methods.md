@@ -6,23 +6,19 @@ date: 18-05-2023
 
 Up until recently where I was working on coding examples for my Open-Closed Principle I had 
 
-not worked or looked into
+not worked or looked into types and multimethods in clojure. The vast majority of code I have 
 
-types and multimethods in clojure. The vast majority of code I have done whether that was for 
+done whether that was for Euler, fizzbuzz kata or the unbeatable tic tac toe game has been with 
 
-Euler, fizzbuzz kata or the unbeatable tic tac toe game has been with standard functions. Types
+standard functions. Types and multi methods appear to be a great way to actively prepare for 
 
+changing requirements and future added functionalities to code. They can be used to instantiate 
 
+different types such as square, circle, triangle and then creating methods for each that have slight 
 
-and multi methods appear to be a great way to actively prepare for changing requirements and 
+variation in how we would want to process each of those shapes. A multi method class called area can 
 
-future added functionalities to code. They can be used to instantiate different types such as 
-
-square, circle, triangle and then creating methods for each that have slight variation in how we 
-
-would want to process each of those shapes. A multi method class called area can be created 
-
-and then the methods for each shape are based on this multi method. This allows us to follow 
+be created and then the methods for each shape are based on this multi method. This allows us to follow 
 
 the open-closed principle because the existing functions for each shape are never modified 
 
