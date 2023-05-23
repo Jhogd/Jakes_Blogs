@@ -11,13 +11,13 @@ method call based on their specific implementation and have different results. A
 
 having an area class that can handle different types of shapes like squares, triangles and 
 
-circles and all of these shapes will have slightly different area methods but they are all shapes 
+circles and all of these shapes will have slightly different area methods, but they are all shapes 
 
 and they all have an area. Polymorphism is typically done through inheritance where there is a 
 
 class and a subclass that is inherited from the base class. Both the class and subclass can 
 
-have a method with the same name but the subclass’s ,ethos can override the base class 
+have a method with the same name but the subclass’s methods can override the base class 
 
 method to provide a specialized implementation. A square and triangle can both derive from a 
 
