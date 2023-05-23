@@ -3,9 +3,6 @@ title: Adding difficulty to something that is unbeatable
 date: 22-05-2023
 ---
 
-Adding difficulty to an unbeatable AI:
-
-
 Today I began working on adding multiple features to my tic-tac-toe game including the 
 addition of multiple different play types like human vs human, ai vs ai, a four by four version of 
 the game and difficulty settings for the ai. I needed to incorporate an easy setting which would 
