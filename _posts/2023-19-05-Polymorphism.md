@@ -3,7 +3,6 @@ title: Polymorphism
 date: 19-05-2023
 ---
 
-Polymorphism
 
 Polymorphism as used in object oriented programming allows objects to respond to the same 
 
