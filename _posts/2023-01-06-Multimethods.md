@@ -5,26 +5,15 @@ date: 01-06-2023
 
 
 As I worked on refactoring my tic-tac-toe board and added new functionalities and I began to 
-
 better understand how to get the best use out of multi methods in Clojure. They are great for 
-
 achieving polymorphism and getting rid of unsustainable and fragile conditional statements 
-
 and if statements. In my code I needed to add a separate win conditions function for my 3D tic 
-
 tac toe board as the previous one only worked for different sized two dimensional boards. I 
-
 could just create a new differently named function and then create conditionals in my code 
-
 wherever I called the win condition function to dictate if I needed to call the 3D or 2D variation. 
-
-This sounds like a massive headache and will cause my to have to change a lot of my code to 
-
+This sounds like a massive headache and will cause me to have to change a lot of my code to 
 comply with this new functionality, not to mention it breaks the open closed- principle. Instead I 
-
-created a multi method for a win? function and it dispatches based on the dimension of the 
-
-board
+created a multi method for a win? function and it dispatches based on the dimension of the board
 
 ```clojure
 (defmulti win? :dimension)
@@ -61,9 +50,6 @@ Now I don’t have to change any of my code that calls the function as it still 
   (init-board [this] {:state (vec (repeat (* 3 3 3) EMPTY)) :size 3 :dimension :three})
   )
 ```
-
 This implementation of initializing the board gives the board a :dimension in which the win multi 
-
 method can dispatch appropriately without having to pass in any other variables besides the 
-
 board and player.
