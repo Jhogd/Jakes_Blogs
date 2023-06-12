@@ -3,9 +3,6 @@ title: Database commands in clojure
 date: 06-09-2023
 ---
 
-Data base persistence
-
-
 For my tic-tac-toe application I was tasked with creating a database that holds data for each game and each move of the game. I had done something similar already with file persistence just simply using text files to save game boards and retrieve them when needed. The logic was basically the same with the database in the sense that I want to be able to resume a game if it was not finished. Java has a really nice library for working with sqlite called jdbc and it allows for some very simple and straightforward database commands. For example, these first four functions below allow me to insert data into my specified database and grab last id’s with very few sql commands.
 
 ```clojure
