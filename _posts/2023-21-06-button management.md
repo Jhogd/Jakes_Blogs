@@ -3,7 +3,7 @@ title: Hnadling the mouse
 date: 21-06-2023
 ---
 
-The creation of buttons in quiz was something that initially stumped me and I was going about in the wrong 
+The creation of buttons in quil was something that initially stumped me and I was going about in the wrong 
 
 way. Initially I just had a function such as handle-mouse that would check if the mouse was clicked and then 
 
@@ -11,7 +11,7 @@ perform logic based on the coordinates. This did not work as as there was nothin
 
 that called a mouse-click function, instead I had placed it within the main game loop when it was the 
 
-humans turn. This is wrong for a variety of reasons, one quiz passes around a map and continuously calls the 
+humans turn. This is wrong for a variety of reasons, one quil passes around a map and continuously calls the 
 
 functions defined in the sketch which means it would keep calling the draw and update without caring about 
 
