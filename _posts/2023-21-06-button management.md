@@ -1,5 +1,5 @@
 ---
-title: Hnadling the mouse
+title: Handling the mouse
 date: 21-06-2023
 ---
 
