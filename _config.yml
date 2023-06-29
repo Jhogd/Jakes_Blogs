@@ -1,2 +1,4 @@
 theme: minima
 title: Jakes Blog
+exclude:
+  - tmp/
