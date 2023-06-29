@@ -1,5 +1,5 @@
 ---
-title: Iteration continued
+title: Iteration Continued
 date: 28-06-2023
 ---
 
