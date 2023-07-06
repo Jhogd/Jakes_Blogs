@@ -1,5 +1,5 @@
 ---
-title: open and closed server
+title: open and closed
 date: 05-07-2023
 ---
 
