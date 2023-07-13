@@ -2,4 +2,15 @@
 title: Learning more
 date: 30-06-2023
 ---
-LEh69fGBzIVKUi9mEVftlYYuJAbqjEgS/548nu2/9E7if2tjugwqJnXYDHhyIZwZxHFHc8gWPSPXi1EESJDb9iOxqt8zEpmmtzu3ycJkpQgQlF/eX2JJRH9sD5AtBsyD8+090UstR7HDHDp6MJcz0hBAEQd+Z4CPhAUxlU4/4VT0dfnMVL6WAuaYhrz3HZ4cD1vSezWeSj1KsucxQPegRI0pKuT7+xevO3eFpJiLZi5nK1gs3gCKrUypVaj+i9XL4xwhYkIhsfsRcfjmTNx5fKO0tqiKx3zop4rmAjyaI3UR+RwKWJhwcs7UlBFtd44NSWkniicjfbfg0fjyMVLJFXF04P3A8LoM8JyaRqwhmHAL4fVSSDG2PMndN17NgM1udmeMKlNiUxC8yFVuWRyrWpVR4qDWeRZ6XqnMbV4j54g5LxB2XinbGthoQLv5KyiQ/zNvHFyodbtlwATNYmUrxAxZ+x/0CwW5zzGKvc4j0Ciy9n13nuuSkFZxipHQ1HhqALJLbyTdhLpw4Q85hbcYZoLlFIsxEqt6kOKpKLCz5xFIuvlIKj8e9F11YBHd721Z7fatluUjIwVTomZOUb2dFDgFF3MO2Zdkz98CT82c8BRRVqYDSEoFeanaXPlt/HeNEawbHsh10zjNwzKarBOP/ctdh5TlS15eou43fECaJ0V0rQ4GZWmmxRhxbKZTcZF0ojIuIhfce/UbECasw53bW/vLRUnnuNEX43p0JkgvZ8LitU7LGa9LkyfQtqYPX7chUmno8J6JSo14nZrBYQ3Ad303c1sayt3luhGU75ckjSp+h+h4HeHrToEHmo5/lF//b5EbhvBfB/LUSl3d9P9vRPggrOnEMiPpSFJTeY9coVM01bedijH8CmwJElx3s95B47/PPPJkmg2arj6WTfSqOd0LuSGz5C1NdobI3bWxdfghvUNy4djEoaWCMoVAYvKw+9c4WC8xD2oTj1mAaaSFAXHcJXvvqT0fFblKUz4dfNktWM6JruIpSit3+lWW7amL1OS34mzCwmzSsNQB0QLFVydiEf77g9WHPbD0buNoiXsaYlLxIYPi1k2Q1knUNkomA344v1bRgQaovn+x4by6GXhf55D53Yysuipp0C2ltLU=
+I have now got my server up and running where every feature is working besides the guessing game. I am happy that I have the directories and other requests set up well but I believe the game will be the hardest one. Something new that I am glad I got to start learning about is html and formatting correct html responses. At first I did not have complete responses and I did not know how to wrap text in a link but through a bit of research I was able to format my html responses correctly. Here is an example of my /hello welcome page
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 7
+<html><body><h1>Welcome!</h1></body></html>
+
+Links happen to be pretty simple as well.
+```java
+listing.append("<li><a target='_blank' href='").append(file.getPath()).
+                append("'>").append(file.getName()).append("</a></li>");
+```
