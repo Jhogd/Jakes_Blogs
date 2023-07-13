@@ -3,4 +3,12 @@ title: final for Iteration 9
 date: 03-07-2023
 ---
 
-rtRY89DexMuBsq7sFdq3Ntdd/+xQievANmMK5eCA/8NRk8W8db/kmo729O1yk71KZnAuLMhi2SiTkNHa+AVVXuU8GbCwRrg8qiD32M8of5OFtP5Occt3YbXTaPYOuqn9G+Ud0HkQfiWm352mUsRdzYG3V9txCNcHU6L5ZtzdCCL56t2h/0U7d4L5HNumQoT0nb0qAfHSAwnBTHmKAvmajWX/hkBVYewvve4nvnAoeamrUQ7Hl2uznY74+ZJTXr2pRP1i7R/fHy5HZToL7V4Twx9p0XDftPwLCc2tJWI9VOaSwcrfQT7M2vPAlZncKc5itUHDV0XtbrHmmyhy5LElNMra46Sbke3D5JdrTgszkH5T0/mHIIUSCbzqriCTIDjcjXtXAdkeCxPwTNW9/000KgCLAIHZ7GwzB3wDPNWX8dpKmfe9ZbreCBLcMbnm3Mm+XAMY99BDGvBQj2ALtvCRU310GEadOhh5ICHSAAVRkBgZqYUeeUJ0XpRgtEleNpFpJFWuXfj9paNG49keHrgHvfTwHXPCedDvL724FRy7ZKH0ObOk5th0+F2CCSuDMH8H0l81Oi7mNKZFkvtFFZ7ommcCMqMzPkXLXLbF8+gObiWM4poVP1xOfQFsK4m+LtYl1FcNGINGJ1QAFUL3Q+2YZKoCM+3WGjJwaMothL0FrALPi4rkUdfdP31a5pioZFAtIOUFtELGZ7SK+INxdOTLFZ802flvlAGZd6l0ZI0IAzFZljFY7mF4HMCxpmTlA/sNYWnSGJh0cqVWi5uQ0F0OTN3g1+n9/W2ADT1QIGqSJcYB6lTmn/pOf799OUGDYrpRNiAVAx1xjZDZzZ6/faFul3ir1Xa6k/7W8ZPcvfwQwXs8QPZoK41//jZkpBKRf+P9KaawoASg/6alQlr/4mE6slLzsOeFpeZHEjzZmQAPBMC53MPrl4oZ2wRxzT9R99Kh0vPwWQhCNCkDZC7dwS2oyFsZpwjIe1CUYRmwBLtgT+O8ywPjb2U3tQo4GYNc+yoK
+I am very happy to say that I have completed my initial HTTP server. This was a very challenging task and it forced me to learn a lot of new topics and apply that learning to code in just a week. I am definitely happy I got to do this project because it showed me how much more I still need to learn especially when it comes to building servers and websites. A very useful tool I found when trying to figure out how to build the guessing game was a concurrent hash map. With this map I was able to store the gameId with the random number associated with that id. So, in the case that multiple people are running the game, they will all have different random numbers they are trying to guess and my server will keep track of what random number belongs to who.
+```java
+public static int initGameResponse() throws IOException {
+        int randomNumber  = (int) ((Math.random() * 100) +1);
+        int gameId = randomMap.size();
+        randomMap.put(gameId, randomNumber);
+        return gameId;
+    }
+```
