@@ -3,4 +3,8 @@ title: open and closed
 date: 05-07-2023
 ---
 
-hmXmk/MhBt4r70lvsplzfPCXJpCy7/UfYmij8RHMUviIBUSnsbgqMXuH3kXkdjEvdI1F+ZXYaU1x6MrvEkPgkHYv1kqUv2eCjN7JFL1jwfDt0jTbOCzuLV/hITOe/PKgTg3ZZ2Sbgm/Qk8vHLyzGoed0sxaFLmHSCW4b41Yq620QYRhhEPspEyaann7b0VHlUHjTyCvSvRMF1wUogUIHQ61jnSuaQQWJJkmsHZWlI1VGHlTAvvRxZaCchDxQIc8pxwgOaEHyfVEVJ4IPswSsjglKHF60PsmKi1n9ri1+yJWtFV/LRqKv13m/5kjCibpXHbIg61d6dORYG2CLUEgAY9XatITrkF4iHAzJIYHjGUwYuF3Je5Tf+5uJKjcZG+8prO7XYZpdwTgFuI4Ki3LL4YljblHHybNuV4jibhx2zNB/QTLyxlePnm6AVCtWaVU4eCJm/37DmUz/FA3yL1IAAZBlUupJIrPUKXh9o1+fx2O4ryh+2L8NxaZLcuRk+ZU2jkGP5HtsbXc+JrS1rHiRAVanfpmF3Ix8tBB8tn8hHcJZi/ZvK2oyTo/eEKKRp7I+Jltyle1+PdVrjTBO2Orqcef8dw3hkS+FNm5oPTvChvZbmMvlkziK4xNsLuO6m4wSMLgXPkcwGc4pmODw0DDUi7Krpy5G2ygsruU/meU8f2lU94Ewt9xaWSrgZgu6j/W6GEAr0cU+3v3Qu2ri/2RFoFEhW0/DLtLyBoB50YZZ1GZLQ/sXirAb/nsruVqnGo1UIim+jtLWog/eyDTYBeBu9vtNo9kH2kFDTidiRUmiXL9sekuNrnf/43dx0VxMeg0h7E+qXSsahbDJ16lfB/2tMG+Nhvxuue94JrHWU0Xil7+UabHkf0LhHPZxOj8KJx1zDsUHsQWIr6YpqanoHGfcUIOMCoAhaBCG70PQ1k4BukyopXqVHELHLRLd+cIZ6NqtlKOtUI/Bd+thuSIt62H2Qg==
+Though I was able to get the required functionality of my server, it is not configured properly to allow new web applications to run on the server without modifying the server itself to add a new resource path. To change this I am following the command design pattern. Instead of using a switch statement and different cases for each potential resource path and then calling the designated function, I am breaking each functionality into its own class. This way I can utilize what would be similar to a multi method in Clojure by having each class implement a Serve interface that has a sendResponse() function. Now I can have a map of every resource and class and then I can call sendResponse based on the incoming resource or path.
+
+```java
+serveMap.get(partialResource).sendResponse(output, resource);
+```
