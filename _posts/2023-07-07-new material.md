@@ -1,6 +1,23 @@
 ---
-title: Learrning more 
+title: Learning more about Html
 date: 07-07-2023
 ---
 
-lUeogZKItDdjcvLsqyfC/KpxrdJPal5q8O4kdbTLoMgRdA1hj+lmE2m57EbzX80K2MT2AmcrPSTJPhDTMThrerk6sKvhEjkBpOpn2MDlaTda42vgBhhk+/tS3je5bjojKrfeTEO9dm/ICEu335u8Fw4qwwLW6e/wZgure6H/Kt4PgdS/QD/sUtt3GMLzc8D1tpJOdIB0MBxJHiPChL/R9lnhj8pokjNVmhrsYPd5QkXIQAGJWi5/tWbIiYCf8vF8o0i8zOmV5nSg8QF8PAeTNx1jISfeKznfKD2FkTxEjOOfo5iqSa1mQBCyNltPpoLNns2f4EHhCzqyqPAVYIkGEcFFmG0zNeWDetkF3EHVFWgVevH7lTkXGp8tQr5ewq8v4jyDJDLbCVzlK0U4hR6KibCzpO5KB6u4HTNty7jX7b+KSiXRNqU4hKe7mAhBeq9D5+bV3uStyQCSyRyhpjOALAaE7lqf31rZetZaGEC+6uiawbQoMsgUht8iRUmRDIP+6NZsy+qBJoYzBApcznIyo6hK5BFnz/A9eu61wAuXhPVO9UFHraTUAVQKtVsUPC2XpE+Pntb9P7HGZjuSCIDWNqn3azILhFYEearNbewpiLWmII3DoTjxt0WgP+ge1/nJcWy3qZPCKV78Y2bZXHHB6OoD71E3l2Oab0ErfW/XbyDnKBShzXqolFTaxu6SiN2KvYCFQFWD0Zh21jVTkuB9alpLQNge7W0Bcv2gAgk+PpRuHg0IE2y4DDXN6Ba1mcnO8bZAub3rI763q2RDnzCod4Imgo6cbzDr9zEW24d0JifCfGz3XcIdb24RSm4J8Y4aCj+uZ73roFVHD8duxpUexNsgWROQAMVXOM9tTMCUPAHlVHEsqwy+usMjnBs+hm0ZjU9rSUdVt+8zXDtrHDExaO6weSdTzUyyJl4nGod8va969GwJAKJPDEOTvrEG1s8HpZ24lT1jhDZnMLJYOu+zCn+3TSrNrjygK2TfneG8ttt93xfEHmSNybnaSDo9WVqQjIGkhbwuXtjJDOmuF3wCTWogRm50klkj+Tm8Ii/9cOln3cfOBkbtwYp94jbjHQDkjIMoswQuvwpNqQgC7ZV0ESIu+2wTOTSWqqyaSJmc0P1oFbqVv6VCDrDGxKzVAbFCeUUmmcNlJfqCyHyMzXpriWrQz/6Gc0SKCoSniCU5yhjsAIhNqu43ZIW8YB9qRQxxWyjzMcDN7NyvdYvuwxqhfaI0mA1uotWGPocgSpt09gtxchPPdVAq/PpUl62fKmiXh6JsEhdSD1sCMq8LK2cLs4J67KdFVXCFpUReenlQggTxQ1ohO+QkRmJLoWHm9Rw7eLSDf8fVUCzqtit6qt/dGP8kvn+6xOVfq9hpGaZmG/H2iVF+UOCb47J7p+Qt84uIt+juR+7oBkIbtMmiwOXBR5sN3FN3JoM2pSrlhvaz+lHUzIfva7al/VuJm4SmtL/MbIhk5TQEb+Z8X24OGZpCpPbvm/y3BHGXxqV/glF/xlvJ6BCGQ48ugn74owFZlCC5j2Z28BySW5MJwtbQBwe3tC+u0ACAZq5RtoccBW9Z+FLIk7nPe9AB/CJ3CCS97olIbzqpZk5UCamyGvqNyMevIuJRGVOyLb65/ZKGNmefUBBJea9YOkgsFJ9sF1Kf0fhGlTU6jv6Ex6qnJdTlSZyNk5ODp2OZQwFDdmrp4J8EKFI=
+Html was something that I had basically zero experience with coming into this internship and really going into the last week as well. Its exciting for me when there is something new I can learn and try to accomplish and I have been grateful to get that almost every week of this apprenticeship. I feel like I have made good progress in learning Html considering where I started as I was able to send adequate responses in html for the initial implementation of the web server. This was all very basic html while, the newest iteration of implementing ttt and the http server has required more advanced knowledge. I wanted a simple way of getting user selections for the board and game type so I decided to go with checkbox inputs which turned out to really not be too challenging to implement. 
+
+<form action="/action_page.php">
+
+    <input type="checkbox" id="board" name="board" value="1">
+
+    <label for="board"> 3 by 3</label><br>
+
+    <input type="checkbox" id="board" name="board" value="2">
+
+    <label for="board"> 4 by 4</label><br>
+
+    <input type="checkbox" id="board" name="board" value="3">
+
+    <label for="board">  3D</label><br>
+
+
+This is all it requires to get three checkboxes named board with different titles representing the three board options.
