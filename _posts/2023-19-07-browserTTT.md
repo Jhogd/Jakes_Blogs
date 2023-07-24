@@ -22,7 +22,7 @@ I also added a playing? Boolean which will determine if the menu or the game is 
                     #(update-map :board (conj (utility/init-board (utility/->Four-by-four)) {:display :gui})))
        ]])
 ```
-Next, I create the table using a create-square function which is a button that has a on-click event which calls either a human-turn or an ai turn function depending on whos turn it is. This create-square function is called in a create-row function which calls the square either three or four times depending on the size. Finnaly,  the create row function is called in a create-table function which again calls create-row three or four times.  The rest of the code is simply specifying what to do when a new game is started and the function that acts a main to create a game.
+Next, I create the table using a create-square function which is a button that has a on-click event which calls either a human-turn or an ai turn function depending on whos turn it is. This create-square function is called in a create-row function which calls the square either three or four times depending on the size. Finnaly, the create row function is called in a create-table function which again calls create-row three or four times. The rest of the code is simply specifying what to do when a new game is started and a function that acts as a main to create a game.
 ```clojure
 (defmethod create-square true [current-game-map position]
     (doall
