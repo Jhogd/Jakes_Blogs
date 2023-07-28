@@ -1,6 +1,6 @@
 ---
 title: Internal Setup
-date: 28-07-2023
+date: 24-07-2023
 ---
 
 
