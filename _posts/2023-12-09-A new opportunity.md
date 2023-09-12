@@ -1,5 +1,5 @@
 ---
-title: Multimethod usage
+title: A new opportunity
 date: 12-09-2023
 ---
 
