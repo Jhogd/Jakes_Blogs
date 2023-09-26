@@ -1,6 +1,6 @@
 ---
 title: Fantastic Friday
-date: 21-09-2023
+date: 22-09-2023
 ---
 
 Well, another week has officially passed in my apprenticeship, and I am feeling good. The demo went about as smooth as I could have hoped where every story was approved by the customers and everyone seemed satisfied with the work put out. In terms of my own standards, the only thing I would have changed is getting more of the open story modal done. I did get multiple tasks done for the overall story but I had to split it up into two stories due to the amount of work needed to change everything. Alex also completed his apprenticeship and I could not be happier for him. I know he has worked extremely hard for this just as I have and he is well deserving and I know he’ll make a great craftsman. I just need to keep working hard, and putting out high quality software and I know I will get there soon as well. On a completely opposite note I have continued to monitor epic production for stories that are in the incorrect position and I have not found any errors. This gives me good hope that I have permanently fixed the issue where iterations are unsignable becasuse stories are in the wrong iteration. I am very confidenet that making the stories show up in the entity denoted by their respective iteration or milestone key has fixed the bug.  Lastly, I was able to implement the new way to edit and create tags in the story modal which gives me a good start on the next iteration and I will continue to work on the story modal until I ahve completed it.   
